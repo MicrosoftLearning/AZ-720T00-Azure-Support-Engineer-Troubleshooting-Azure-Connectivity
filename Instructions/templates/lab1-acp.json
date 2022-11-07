@@ -22,7 +22,9 @@
                         },
                         {
                             "field": "location",
-                            "In": "[resourceGroup().location]"
+                            "In": [
+                                "[resourceGroup().location]"
+                            ]
                         },
                         {
                             "field": "location",
