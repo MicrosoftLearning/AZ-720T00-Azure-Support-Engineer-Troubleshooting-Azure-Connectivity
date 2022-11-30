@@ -31,7 +31,7 @@ In this lab, you'll use what you've learned to go through steps to troubleshoot 
 
     ```
     az network public-ip show \
-    --resource-group lab6rg \
+    --resource-group lab7rg \
     --name webPublicIP \
     --query '[ipAddress]' \
     --output tsv
